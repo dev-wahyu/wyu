@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Wahyu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        .minecraft-font {
+            font-family: 'Press Start 2P', cursive;
+        }
+    </style>
+</head>
+<body class="bg-black text-gray-300 flex flex-col items-center justify-center min-h-screen">
+    <audio autoplay loop>
+        <source src="https://on.soundcloud.com/uWpkWrDXGNwBUpuz5.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="text-center">
+        <p class="text-lg mb-4 blink">&gt;_ no system is safe</p>
+        <h1 class="text-6xl font-bold mb-4 minecraft-font">
+            <span class="text-red-600">WAH</span><span class="text-gray-50">YU</span>
+        </h1>
+<footer class="footer">
+        <span id="typing"></span>
+      </footer>
+    </div>
+     
+        <!-- TypeitJS -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+      new TypeIt("#typing", {
+        speed: 50,
+        waitUntilVisible: true,
+      }) 
+        .type("Hi peeps 🤓", { delay: 1000 })
+        .delete(11)
+        .type("Introducing my name Wahyu 😎", { delay: 500 })
+        .delete(25)
+        .type("I was born in Indonesia, in 2004", { delay: 500 })
+        .delete(32)
+        .type("create by wahyu")
+        .go();
+    </script>
+    </div>
+</body>
+</html>
